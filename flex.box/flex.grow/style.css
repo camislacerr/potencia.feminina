@@ -1,0 +1,18 @@
+.container {
+  border: 1px solid green;
+  display: flex;
+}
+
+.caixa {
+  background-color: pink;
+  width: 40px;
+  height: 40px;
+  border: 1px solid blue;
+  flex-grow: 0.5;
+}
+ #caixa {
+  background-color: pink;
+  width: 40px;
+  border: 1px solid blue;
+  flex-grow: 1;
+ }

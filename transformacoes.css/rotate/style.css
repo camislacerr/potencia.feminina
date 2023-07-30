@@ -1,0 +1,15 @@
+.caixa {
+  width: 100px;
+  height: 100px;
+  background-color: palevioletred;
+  animation: girando 1s infinite;
+}
+
+@keyframes girando {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
